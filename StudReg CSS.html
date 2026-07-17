@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Registration Form</title>
+
+<style>
+body{
+    background:#d9f3ff;
+    font-family:Arial;
+}
+
+.container{
+    width:500px;
+    margin:auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+h2{
+    text-align:center;
+    color:darkblue;
+}
+
+label{
+    font-weight:bold;
+}
+
+input, select, textarea{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+    margin-bottom:12px;
+}
+
+button{
+    background:green;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:darkgreen;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Student Registration Form</h2>
+
+<form>
+
+<label>Student Name</label>
+<input type="text">
+
+<label>Roll Number</label>
+<input type="text">
+
+<label>Date of Birth</label>
+<input type="date">
+
+<label>Email</label>
+<input type="email">
+
+<label>Phone Number</label>
+<input type="tel">
+
+<label>Class</label>
+<select>
+<option>B.Tech CSE</option>
+<option>BCA</option>
+<option>BBA</option>
+<option>MCA</option>
+</select>
+
+<label>Gender</label><br>
+
+<input type="radio" name="g"> Male
+<input type="radio" name="g"> Female
+<input type="radio" name="g"> Other
+
+<br><br>
+
+<label>Address</label>
+<textarea rows="4"></textarea>
+
+<button type="submit">Register</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
